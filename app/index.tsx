@@ -10,15 +10,9 @@ export default function Index() {
       }}
     >
       <Link href={'/login'}>
-<Text>Go to login Page</Text>
+<Text>Go to login Page on the way to </Text>
       </Link>
-      <Link href={'/login'}>
-<Text>Go to login Page</Text>
-      </Link>
-      <Link href={'/login'}>
-<Text>Go to login Page</Text>
-      </Link>
-      
+     
       
     </View>
   );
