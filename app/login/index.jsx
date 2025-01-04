@@ -36,10 +36,10 @@ export default function LoginScreen() {
               fontFamily: 'outfit-medium',
               fontSize: 20,
               textAlign: 'center',
-              width: 20,
-              height:20
+             
           }}>Get Started</Text>
         </Pressable>
+        <Text>let g</Text>
       </View>
     </View>
   )
