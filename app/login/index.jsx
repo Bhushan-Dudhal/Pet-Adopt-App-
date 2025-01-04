@@ -26,7 +26,7 @@ export default function LoginScreen() {
         <Pressable
           style={{
             padding: 14,
-            marginTop: 35,
+            marginTop: 30,
             backgroundColor: Colors.PRIMARY,
             width: '100%',
             borderRadius:14
@@ -35,7 +35,8 @@ export default function LoginScreen() {
             style={{
               fontFamily: 'outfit-medium',
               fontSize: 20,
-              textAlign:'center'
+              textAlign: 'center',
+              width:20
           }}>Get Started</Text>
         </Pressable>
       </View>
