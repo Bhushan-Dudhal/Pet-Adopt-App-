@@ -35,11 +35,12 @@ export default function LoginScreen() {
             style={{
               fontFamily: 'outfit-medium',
               fontSize: 20,
-              textAlign: 'center',
-             
-          }}>Get Started</Text>
+              textAlign:'center'
+            }}>Get Started</Text>
+          <View>
+            <Text>new</Text>
+          </View>
         </Pressable>
-        <Text>let g</Text>
       </View>
     </View>
   )
