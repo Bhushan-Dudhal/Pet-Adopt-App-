@@ -39,6 +39,9 @@ export default function LoginScreen() {
             }}>Get Started</Text>
           <View>
             <Text>new</Text>
+            <Text>new</Text>
+
+
           </View>
         </Pressable>
       </View>
