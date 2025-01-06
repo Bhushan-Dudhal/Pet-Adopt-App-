@@ -37,12 +37,9 @@ export default function LoginScreen() {
               fontSize: 20,
               textAlign:'center'
             }}>Get Started</Text>
-          <View>
-            <Text>new</Text>
-            <Text>new</Text>
-
-
-          </View>
+          <Text>
+            hi
+          </Text>
         </Pressable>
       </View>
     </View>
