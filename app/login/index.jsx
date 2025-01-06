@@ -38,7 +38,10 @@ export default function LoginScreen() {
               textAlign:'center'
             }}>Get Started</Text>
           <Text>
-            hi
+            hi 
+          </Text>
+          <Text>
+            new 
           </Text>
         </Pressable>
       </View>
