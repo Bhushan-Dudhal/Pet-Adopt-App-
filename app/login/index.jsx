@@ -42,6 +42,7 @@ export default function LoginScreen() {
           
         </Pressable>
         <Text>new</Text>
+        <Text>two</Text>
       </View>
     </View>
   )
