@@ -1,6 +1,7 @@
 import { View, Text, Image, Pressable } from 'react-native'
 import React from 'react'
 import Colors from '../../constant/Colors'
+import { StatusBar } from 'expo-status-bar'
 
 export default function LoginScreen() {
   return (
@@ -8,6 +9,7 @@ export default function LoginScreen() {
       backgroundColor: Colors.WHITE,
       height:"100%"
     }}>
+      <StatusBar style='light' backgroundColor='orange'/>
       <Image source={require("./../../assets/images/login.png")}
        style={{width:"100%",height:500}}
       />
@@ -37,18 +39,14 @@ export default function LoginScreen() {
               fontSize: 20,
               textAlign:'center'
             }}>Get Started</Text>
-          <Text>
-            hi 
-          </Text>
-          <Text>
-            new 
-          </Text>
-           <Text>
-            hello
-          </Text>
+          
         </Pressable>
+        <Text>new</Text>
       </View>
     </View>
   )
-}
+} 
+
+
+
 
