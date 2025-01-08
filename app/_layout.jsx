@@ -24,7 +24,7 @@ export default function RootLayout() {
     />
     
       </Stack>
-      <Text></Text>
+      <Text>hello</Text>
       </ClerkProvider>
   )
 }
