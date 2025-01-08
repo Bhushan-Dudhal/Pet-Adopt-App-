@@ -31,6 +31,9 @@ export default function RootLayout() {
 
 const styles = StyleSheet({
   new: {
+
+  },
+  data: {
     
   }
 })
