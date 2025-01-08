@@ -39,10 +39,7 @@ export default function LoginScreen() {
               fontSize: 20,
               textAlign:'center'
             }}>Get Started</Text>
-          
         </Pressable>
-        <Text>new</Text>
-        <Text>two</Text>
       </View>
     </View>
   )

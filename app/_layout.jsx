@@ -2,6 +2,7 @@ import { Stack } from "expo-router";
 import { useFonts } from "expo-font"
 import * as SecureStore from 'expo-secure-store'
 import { ClerkProvider, ClerkLoaded } from '@clerk/clerk-expo'
+import { StyleSheet } from "react-native";
 
 
 export default function RootLayout() {
@@ -27,3 +28,7 @@ export default function RootLayout() {
       </ClerkProvider>
   )
 }
+
+const styles = StyleSheet({
+  
+})
