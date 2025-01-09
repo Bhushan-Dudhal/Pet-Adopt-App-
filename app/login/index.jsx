@@ -1,4 +1,4 @@
-import { View, Text, Image, Pressable } from 'react-native'
+import { View, Text, Image, Pressable, StyleSheet } from 'react-native'
 import React from 'react'
 import Colors from '../../constant/Colors'
 import { StatusBar } from 'expo-status-bar'
@@ -44,6 +44,9 @@ export default function LoginScreen() {
     </View>
   )
 } 
+const style = StyleSheet.create({
+  
+})
 
 
 
