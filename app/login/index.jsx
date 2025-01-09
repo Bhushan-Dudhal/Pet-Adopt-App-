@@ -46,7 +46,8 @@ export default function LoginScreen() {
 } 
 const style = StyleSheet.create({
   height: {
-    height:20
+    height:20,
+    width:20
   }
 })
 
