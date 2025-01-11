@@ -4,5 +4,6 @@ export default {
     GRAY: '#8F8e8d',
     WHITE: '#fff',
     data: "new",
-    new:'ad'
+    new: 'ad',
+    hi:""
 }
