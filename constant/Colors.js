@@ -5,5 +5,5 @@ export default {
     WHITE: '#fff',
     data: "new",
     new: 'ad',
-    hi:""
+    hi:"mhh"
 }
