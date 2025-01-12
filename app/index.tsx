@@ -11,7 +11,7 @@ export default function Index() {
     >
       <Link href={'/login'}>
         <Text>Go to login Page on the way to helo </Text>
-        <Text>v</Text>
+        <Text>vdfff</Text>
       </Link>
      
       
