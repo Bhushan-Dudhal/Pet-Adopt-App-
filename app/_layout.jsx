@@ -16,7 +16,8 @@ export default function RootLayout() {
 
   })
   return (
- <ClerkProvider  publishableKey={publishableKey}>
+    <ClerkProvider publishableKey={publishableKey}>
+      <ClerkLoaded></ClerkLoaded>
     <Stack >
     <Stack.Screen name="index" />
     <Stack.Screen name="login/index"
