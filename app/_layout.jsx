@@ -6,6 +6,9 @@ import { ClerkProvider, ClerkLoaded } from '@clerk/clerk-expo'
 
 export default function RootLayout() {
   const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY
+  
+
+    
   useFonts({
     'outfit':require('./../assets/fonts/Outfit-Regular.ttf'),
     'outfit-medium':require('./../assets/fonts/Outfit-Medium.ttf'),
