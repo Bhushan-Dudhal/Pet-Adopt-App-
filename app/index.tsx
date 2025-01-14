@@ -6,14 +6,12 @@ export default function Index() {
     <View
       style={{
         flex: 1,
-       
-      }}
-    >
+        }}
+    > 
       <Link href={'/login'}>
+        
 <Text>Go to login Page on the way to </Text>
       </Link>
-     
-      
     </View>
   );
 }
