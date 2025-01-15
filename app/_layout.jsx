@@ -7,14 +7,11 @@ import { ClerkProvider, ClerkLoaded } from '@clerk/clerk-expo'
 export default function RootLayout() {
   const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY
   
-
-    
   useFonts({
     'outfit':require('./../assets/fonts/Outfit-Regular.ttf'),
     'outfit-medium':require('./../assets/fonts/Outfit-Medium.ttf'),
     'outfit-bold':require('./../assets/fonts/Outfit-Bold.ttf')
-
-  })
+ })
   return (
  <ClerkProvider  publishableKey={publishableKey}>
     <Stack >
@@ -22,12 +19,11 @@ export default function RootLayout() {
     <Stack.Screen name="login/index"
       options={{
         headerShown: false,
-        header:
-      }
+        header:2
+  }
     }
     />
-    
-      </Stack>
+    </Stack>
       </ClerkProvider>
   )
 }
