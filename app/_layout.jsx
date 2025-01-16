@@ -19,7 +19,7 @@ export default function RootLayout() {
     <Stack.Screen name="login/index"
       options={{
         headerShown: false,
-        options:
+        
        }
     }
     />
@@ -27,3 +27,5 @@ export default function RootLayout() {
       </ClerkProvider>
   )
 }
+
+const style = StyleSheet.caller
